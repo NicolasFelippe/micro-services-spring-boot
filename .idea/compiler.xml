@@ -9,24 +9,30 @@
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
         <module name="course" />
+        <module name="auth" />
         <module name="discovery" />
         <module name="gateway" />
+        <module name="token" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth" target="11" />
       <module name="core" target="1.8" />
       <module name="course" target="11" />
       <module name="devdojo-microservice" target="1.8" />
       <module name="discovery" target="11" />
       <module name="gateway" target="11" />
+      <module name="token" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth" options="-parameters" />
       <module name="core" options="-parameters" />
       <module name="course" options="-parameters" />
       <module name="discovery" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="token" options="-parameters" />
     </option>
   </component>
 </project>

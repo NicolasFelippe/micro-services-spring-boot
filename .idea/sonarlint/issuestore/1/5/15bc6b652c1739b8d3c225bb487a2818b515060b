@@ -1,0 +1,36 @@
+
+l
+java:S2095o"QUse try-with-resources or close this "ReadableByteChannel" in a "finally" clause.(€Ç—øÿÿÿÿ
+d
+java:S2095p"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(„õ½‰
+J
+java:S1066Q"/Merge this if statement with the enclosing one.(§ıíÍüÿÿÿÿ
+`	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.(Šğ®…úÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+S
+java:S11971"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(ªõ»ùÿÿÿÿ
+E
+java:S62123"/Declare this local variable with "var" instead.(ıÊœ¶
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ô›¶¿şÿÿÿÿ
+E
+java:S62128"/Declare this local variable with "var" instead.(“ôª´
+E
+java:S6212>"/Declare this local variable with "var" instead.(Óã×º
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(ùÖğÓ
+E
+java:S2093<"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(¹°®„
+D
+java:S6212O"/Declare this local variable with "var" instead.(ÔÃˆX
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(¡ˆ¥şÿÿÿÿ
+@
+java:S1181["%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+M	java:S106Y"9Replace this use of System.out or System.err by a logger.(Çğõ"
+S	java:S106\"9Replace this use of System.out or System.err by a logger.(×›£¾üÿÿÿÿ
+E
+java:S6212m"/Declare this local variable with "var" instead.(˜“±ö
+E
+java:S6212p"/Declare this local variable with "var" instead.(„õ½‰
