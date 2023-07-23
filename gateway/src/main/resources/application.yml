@@ -1,25 +1,41 @@
+management:
+  endpoint.gateway.enabled: true
+  endpoints.web.exposure.include: gateway
+
 spring:
   application:
     name: gateway
   main:
     web-application-type: reactive
+    allow-bean-definition-overriding: true
   cloud:
     gateway:
+      discovery.locator.enabled: true
+      filter:
+        rewrite-path:
+
       routes:
         - id: courseMicroservice
           uri: http://localhost:8082/
           predicates:
             - Path=/v1/admin/course/**
+          filters:
+            - AuthFilter
         - id: authMicroservice
           uri: http://localhost:8083/
           predicates:
-            - Path=/login
-
+            - Path=/service/**
+          filters:
+            - AuthFilter
 
 server:
   port: 8080
-  servlet:
-    context-path: /gateway
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty.http.client: DEBUG
+
 eureka:
   instance:
     prefer-ip-address: true
@@ -28,3 +44,5 @@ eureka:
       defaultZone: http://localhost:8081/eureka/
     fetch-registry: true
     register-with-eureka: true
+
+

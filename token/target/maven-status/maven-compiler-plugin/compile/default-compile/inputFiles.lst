@@ -1,0 +1,5 @@
+G:\PROJETOS-PESSOAIS\devdojo-microservice\token\src\main\java\academy\devdojo\youtube\security\util\SecurityContextUtil.java
+G:\PROJETOS-PESSOAIS\devdojo-microservice\token\src\main\java\academy\devdojo\youtube\security\token\converter\TokenConverter.java
+G:\PROJETOS-PESSOAIS\devdojo-microservice\token\src\main\java\academy\devdojo\youtube\security\filter\JwtTokenAuthorizationFilter.java
+G:\PROJETOS-PESSOAIS\devdojo-microservice\token\src\main\java\academy\devdojo\youtube\security\config\SecurityTokenConfig.java
+G:\PROJETOS-PESSOAIS\devdojo-microservice\token\src\main\java\academy\devdojo\youtube\security\token\creator\TokenCreator.java
